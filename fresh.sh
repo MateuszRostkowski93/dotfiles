@@ -43,7 +43,7 @@ echo "Install node using nvm"
 export NVM_DIR="$HOME/.nvm"
   [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && . "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
   [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && . "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
-nvm install 14
+nvm install 18
 
 echo "Install yarn using npm"
 npm -g install yarn
@@ -59,7 +59,6 @@ $HOME/.composer/vendor/bin/valet install
 
 echo "Creating directories for projects"
 mkdir $HOME/evionica
-mkdir $HOME/grixu
 
 echo "Cloning repositories"
 ./$HOME/.dotfiles/clone.sh

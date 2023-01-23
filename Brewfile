@@ -43,11 +43,11 @@ brew 'postgresql'
 brew 'redis'
 brew 'nvm'
 brew 'imagemagick'
-brew 'shivammathur/php/php@8.1'
-brew 'xdebug@8.1'
-brew 'imagick@8.1'
-brew 'redis@8.1'
-brew 'swoole@8.1'
+brew 'shivammathur/php/php@8.2'
+brew 'xdebug@8.2'
+brew 'imagick@8.2'
+brew 'redis@8.2'
+brew 'swoole@8.2'
 brew 'nginx'
 brew 'dnsmasq'
 brew 'awscli'
@@ -59,35 +59,13 @@ brew 'gifsicle'
 brew 'rustup-init'
 
 # Apps
-cask '1password'
-cask 'android-studio'
-cask 'audacity'
-cask 'cleanshot'
 cask 'charles'
-cask 'dash'
 cask 'docker'
-cask 'dropbox'
-cask 'fantastical'
-cask 'google-chrome'
 cask 'google-chrome-canary'
 cask 'imageoptim'
-cask 'pdf-expert'
-cask 'ray'
-cask 'raycast'
-cask 'slack'
 cask 'tableplus'
 cask 'the-unarchiver'
 cask 'paw'
-cask 'tint'
-cask 'vlc'
-cask 'visual-studio-code'
-cask 'zoom'
-cask 'transmit'
-cask 'displaylink'
-cask 'phpstorm'
-cask 'intellij-idea'
-cask 'jetbrains-toolbox'
-
 
 # Fonts
 cask 'font-lato'
@@ -100,10 +78,3 @@ cask 'font-source-serif-pro'
 cask 'font-fira-code'
 
 # Mac App Store
-mas 'Keynote', id: 409183694
-mas 'Numbers', id: 409203825
-mas 'Things', id: 904280696
-mas 'Amphetamine', id: 937984704
-mas 'Magnet', id: 441258766
-mas 'iAWriter', id: 775737590
-mas 'Telegram', id: 747648890
